@@ -54,7 +54,9 @@ h1 {
 .main {
   width: 550px;
   height: 704px;
-  border: 1px solid black;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px  grey;
 }
 
 /* Nav Bar Elements */
@@ -68,6 +70,8 @@ h1 {
   color: #fff;
   width: 550px;
   height: 55px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .nav-heading {
